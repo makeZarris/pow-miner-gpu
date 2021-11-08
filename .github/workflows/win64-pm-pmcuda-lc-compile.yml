@@ -1,9 +1,6 @@
 name: win64-pm-pmcuda-lc-compile.yml
 
-on:
-  push:
-    tags:
-    - '*'
+on: [workflow_dispatch]
 
 defaults:
   run:
